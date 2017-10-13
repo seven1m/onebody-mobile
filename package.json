@@ -1,0 +1,32 @@
+{
+  "name": "io.church.onebody",
+  "displayName": "OneBody",
+  "cordova": {
+    "platforms": [
+      "android",
+      "browser"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "de.appplant.cordova.plugin.local-notification": {},
+      "cordova-plugin-inappbrowser": {}
+    }
+  },
+  "version": "0.0.1",
+  "description": "Free church directory and social network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Church.IO Team",
+  "license": "AGPL v3",
+  "dependencies": {
+    "cordova-browser": "^5.0.0",
+    "cordova-plugin-app-event": "^1.2.1",
+    "cordova-plugin-device": "^1.1.6",
+    "cordova-plugin-inappbrowser": "^1.7.1",
+    "cordova-plugin-local-notifications": "git+https://github.com/katzer/cordova-plugin-local-notifications.git",
+    "cordova-plugin-whitelist": "^1.3.2",
+    "de.appplant.cordova.plugin.local-notification": "https://github.com/katzer/cordova-plugin-local-notifications"
+  }
+}
